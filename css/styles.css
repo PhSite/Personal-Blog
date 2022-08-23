@@ -1,0 +1,230 @@
+body {
+  background-color: #CC9690;
+  margin: 0;
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+/*navbar section*/
+
+.navbar {
+   padding: 0 0 4.5rem;
+ }
+.navbar-brand {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #eb9e58;
+ }
+ .nav-item {
+   padding: 0 18px;
+ }
+ .nav-link {
+   color: #ecc485;
+   font-family: 'Montserrat';
+   font-size: 1.2rem;
+ }
+ .navbar-brand:hover {
+   color: #ecc485;
+ }
+ .nav-link:hover {
+   color: #eb9e58;
+ }
+
+ /* opener */
+ .opener {
+   padding-right: 60%;
+   margin-left: 3%;
+
+ }
+ .big-heading{
+   font-family: 'Sacramento';
+   font-size: 8rem;
+   font-weight: bold;
+   color: #4f1a31;
+   letter-spacing: 1.5;
+   margin-top: 50px;
+
+ }
+.middle-heading{
+   font-family: 'Montserrat';
+   font-weight: normal;
+   font-size: 2rem;
+   color:#841c31;
+   margin-bottom: 20px;
+ }
+h4 {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #841c31;
+  padding-right: 10%;
+}
+
+/* About ME */
+#about-me {
+  background-color: #F0C884;
+  font-family: 'Montserrat';
+  padding: 100px;
+  text-align: center;
+  color: #841c31;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.about-column {
+  padding: 3% 2%;
+}
+.card-header {
+  background-color: #b76d84;
+}
+.card-body {
+  background-color: #caa7af;
+}
+.card-title {
+  padding: 10px;
+  margin-bottom: 0;
+}
+/* Hobbies Section */
+#hobbies-section {
+  background-color: #CC9690;
+  padding-bottom: 40px;
+  margin: 0px 120px 0px 120px;
+
+}
+.hobbies-title {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #841c31;
+  text-align: center;
+  padding-top: 100px;
+}
+.hobbies-body {
+  font-family: 'Montserrat';
+  color: #CC392A;
+  font-size: 2rem;
+  padding-bottom: 20px;
+  font-weight: lighter;
+}
+p {
+  line-height: 2;
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  color: #841c31;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  text-align: left;
+}
+
+.book-image {
+  width: 25%;
+  float: left;
+  margin: 30px;}
+
+.anime-image {
+  width: 25%;
+  float: right;
+  margin: 30px;}
+.music-image {
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin: 30px;
+}
+.joystick-image {
+  width: 25%;
+  float: right;
+  margin: 30px;
+}
+.drawing-image {
+  width: 25%;
+  float: left;
+  margin: 30px;
+}
+.cycling-image {
+  width: 25%;
+  float: right;
+  margin: 30px;
+}
+.garden-image {
+  width: 25%;
+  float: left;
+  margin: 30px;
+}
+.writing-image {
+  width: 25%;
+  float: right;
+  margin: 30px;
+}
+.chess-image {
+  width: 25%;
+  float: left;
+  margin: 30px;
+}
+.martial-image {
+  width: 25%;
+  float: right;
+  margin: 30px;
+}
+hr {
+ border-color: #4f1a31;
+ border-width: 20px;
+ border-style: none;
+ border-top-style: dotted;
+ width: 7%;
+ border: 50px auto 50px auto;
+ margin: 100px auto;
+}
+/* testimonials */
+#testimonials {
+  background-color: #F0C884;
+  font-family: 'Montserrat';
+  padding: 100px;
+  text-align: center;
+  color: #841c31;
+}
+.testimonial-text {
+  padding-bottom: 40px;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-item{
+  margin: 20px;
+}
+
+
+/* Contact */
+#contact {
+  background-color: #CC9690;
+  font-family: 'Montserrat';
+  padding-top: 100px;
+  text-align: center;
+  color: #841c31;
+}
+.footer {
+  background-color: #CC9690;
+  font-family: 'Montserrat';
+  padding-top: 20px;
+  text-align: center;
+  color: #841c31;
+}
+@media (max-width: 1028px) {
+
+  hr{
+    border-color: #4f1a31;
+    border-width: 20px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 10%;
+    border: 50px auto 50px auto;
+    margin: 100px auto;
+
+  }
+  }
+}
